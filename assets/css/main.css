@@ -1,6 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
-@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
 
 /*
   Dopetrope by HTML5 UP
@@ -2185,7 +2185,7 @@ input, select, textarea {
 /* Banner */
 
   #banner {
-    background: #CCE8F4 url("../../images/pic01.jpg");
+    background: #f8f8f8 url("../../images/dede-header.jpg");
     background-position: center center;
     background-size: auto 100%;
     background-repeat: no-repeat;
@@ -2196,6 +2196,8 @@ input, select, textarea {
 
     #banner.small {
       padding: 2em 0;
+      background-color: #abb5c3;
+      background-image: none;
     }
 
       #banner.small header {
@@ -2212,26 +2214,26 @@ input, select, textarea {
         }
 
     #banner header {
-      background-color: rgba(34, 30, 31, 0.98);
+      background-color: rgba(34, 30, 31, 0.85);
       display: inline-block;
-      padding: 2.5em 5em;
+      padding: 2.5em 2em;
       border-radius: 5px;
     }
 
       #banner header h2 {
         color: #fff;
         font-weight: 700;
-        font-size: 2.5em;
-        margin: 0 0 0.65em 0;
+        font-size: 4em;
+        margin: 0.3em 0 0.4em 0;
       }
 
         #banner header h2.handwritten {
-          font-family: 'Rock Salt', cursive;
+          font-family: 'Shadows Into Light', cursive;
           font-weight: 100;
         }
 
       #banner header p {
-        color: #d52349;
+        color: #99a7b5;
         padding: 0;
         font-style: normal;
         margin: 0;
@@ -2475,6 +2477,10 @@ input, select, textarea {
   }
 
   @media screen and (max-width: 980px) {
+
+    #banner {
+      background-image: url("../../images/dede-header-small.jpg");
+    }
 
     /* Basic */
 
@@ -2882,13 +2888,11 @@ input, select, textarea {
         }
 
           #banner header h2 {
-            font-size: 1.5em;
-            line-height: 1.5em;
-            margin: 0 0 0.25em 0;
+            font-size: 3em;
           }
 
           #banner header p {
-            font-size: 1.2em;
+            font-size: 1.5em;
           }
 
     /* Main */
