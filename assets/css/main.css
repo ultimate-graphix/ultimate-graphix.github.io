@@ -2044,19 +2044,28 @@ input, select, textarea {
 				}
 
       .icon.featured.blue {
-        background-color: #4043a7;
+        background-color: #86a1bf;
       }
 
         .icon.featured.blue:after {
-          border-top-color: #4043a7;
+          border-top-color: #86a1bf;
         }
 
       .icon.featured.yellow {
-        background-color: #efe24e;
+        background-color: #676d52;
       }
 
         .icon.featured.yellow:after {
-          border-top-color: #efe24e;
+          border-top-color: #676d52;
+        }
+
+
+      .icon.featured.orange {
+        background-color: #b5562a;
+      }
+
+        .icon.featured.orange:after {
+          border-top-color: #b5562a;
         }
 
 /* Page Wrapper */
