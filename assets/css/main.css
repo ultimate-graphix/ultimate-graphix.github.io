@@ -2259,6 +2259,10 @@ input, select, textarea {
       padding: 2.5em 0;
     }
 
+      #intro section.last {
+        margin-bottom: 2em;
+      }
+
     #intro h2 {
       font-size: 1.75em;
     }
