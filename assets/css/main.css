@@ -1582,6 +1582,10 @@ input, select, textarea {
 			margin: -4.5em 0 4.25em -3.5em;
 		}
 
+      .box .image.featured.inline {
+        padding-top: 4.25em;
+      }
+
 		.box.post header {
 			padding-top: 1em;
 			margin: 0 0 2em 0;
@@ -2179,6 +2183,23 @@ input, select, textarea {
 		position: relative;
 		padding: 8em 0;
 	}
+
+    #banner.small {
+      padding: 2em 0;
+    }
+
+      #banner.small header {
+        padding: 1.5em 2em;
+      }
+
+        #banner.small header h2 {
+          font-size: 2em;
+          margin-bottom: 0.25em;
+        }
+
+        #banner.small header p {
+          font-size: 1.5em;
+        }
 
 		#banner header {
 			background-color: rgba(34, 30, 31, 0.98);
