@@ -2193,7 +2193,7 @@ input, select, textarea {
 
   #banner {
     background: #f8f8f8 url("../../images/dede-header.jpg");
-    background-position: center center;
+    background-position: right center;
     background-size: auto 100%;
     background-repeat: no-repeat;
     text-align: center;
@@ -2486,6 +2486,7 @@ input, select, textarea {
   @media screen and (max-width: 980px) {
 
     #banner {
+      background-position: center center;
       background-image: url("../../images/dede-header-small.jpg");
     }
 
