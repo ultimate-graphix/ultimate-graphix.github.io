@@ -2060,13 +2060,20 @@ input, select, textarea {
           border-top-color: #676d52;
         }
 
-
       .icon.featured.orange {
         background-color: #b5562a;
       }
 
         .icon.featured.orange:after {
           border-top-color: #b5562a;
+        }
+
+      .icon.featured.purple {
+        background-color: #7f5672;
+      }
+
+        .icon.featured.purple:after {
+          border-top-color: #7f5672;
         }
 
 /* Page Wrapper */
