@@ -2377,6 +2377,10 @@ input, select, textarea {
         font-size: 1.75em;
       }
 
+    #footer img {
+      border-radius: 5px;
+    }
+
 /* Copyright */
 
   #copyright {
@@ -2917,6 +2921,10 @@ input, select, textarea {
 
       #footer {
         padding: 40px 0 20px 0;
+      }
+
+      #footer img {
+        float: inherit;
       }
 
   }
